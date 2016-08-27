@@ -26,6 +26,14 @@
        let newValue = args.newValue;
        let object = args.object;
     }
+    
+## How to use with Angular2
+
+    import {registerElement} from "nativescript-angular/element-registry";
+    
+    registerElement("TNSSlider", () => require("nativescript-slider").Slider);
+    
+    <TNSSlider [value]="currentPosition" [maxValue]="movieLength" (dragged)="fromUser($event)"  ></TNSSlider>
 
    
 
