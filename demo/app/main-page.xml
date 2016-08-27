@@ -1,0 +1,7 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd"
+      xmlns:seekbar="nativescript-slider"
+      loaded="pageLoaded">
+  <StackLayout>
+    <seekbar:Slider value="50" maxValue="100" dragged="{{dragged}}" />
+  </StackLayout>
+</Page>
