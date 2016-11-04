@@ -1,6 +1,7 @@
+
 {
   "name": "nativescript-slider",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "fork of nativescript ui/slider with dragged event",
   "main": "slider.js",
   "typings": "index.d.ts",
